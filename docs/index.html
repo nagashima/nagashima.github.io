@@ -1,0 +1,265 @@
+---
+layout: default
+description: "This is a test page. html"
+---
+
+
+<h1><img src="/assets/img/frog.jpg" alt="Rockmania Bouldering Gym" /></h1>
+
+<p class="center navi">
+  <a href="#新着情報">新着情報</a> / <a href="#施設紹介">施設紹介</a> / <a href="#営業時間">営業時間</a> / <a href="#料金">料金</a> / <a href="#アクセス">アクセス</a>
+</p>
+
+<h2></h2>
+
+<h3>埼玉県新座市のボルダリング専用ジム</h3>
+
+<blockquote>
+  <p>
+    Rockmaniaは2022年12月に埼玉県新座市にOPENしました。<br>
+    岩場やボルダリングの大会でも活躍している現役選手など経験の豊富なスタッフが常駐しており、初めての方でも安心してボルダリングに挑戦する事ができます。<br>
+    常時約100本程のコースが用意されており、壁の傾斜も約85°〜155°までの6面とバリエーションがあるため、全く始めたての方から上級者まで対応しています。
+  </p>
+</blockquote>
+
+<h3>オーナープロフィール</h3>
+
+<blockquote>
+  <p>
+    岩崎 大介（いわさき だいすけ、1974年X月XX日 – ）<br>
+    日本のプロ・フリークライマー。
+  </p>
+  <p>
+    15歳からクライミングを始め日本国内の難関ルートを次々に踏破。
+    高校在学時、既に日本のトップクライマーの仲間入りを果たす。
+    17歳でアメリカ合衆国へ渡り、半年間フリークライミングのトレーニングを積んだ。<br>
+    19歳の時に単身フリークライミングの本場ヨーロッパへ渡り、フランス・マルセイユを拠点に数々の国際クライミングコンペに出場し、1989年のフランケンユーラカップ優勝をはじめ上位入賞の好成績を残す。
+  </p>
+</blockquote>
+
+<hr />
+
+<h3 id="新着情報">新着情報</h3>
+
+<div class="container social-link">
+  <ul class="social-link-items">
+    <li>
+      <a href="https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}">
+        <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#instagram' | relative_url }}"></use></svg>Instagram
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
+        <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#twitter' | relative_url }}"></use></svg>Twitter
+      </a>
+    </li>
+    <li>
+      <a href="https://facebook.com/{{ site.facebook_username| cgi_escape | escape }}">
+        <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#facebook' | relative_url }}"></use></svg>Facebook
+      </a>
+    </li>
+  </ul>
+</div>
+
+<div>
+  <ul class="insta-list">
+    {% comment %}
+    <li>
+      <a href="">
+        <img src="/assets/insta/sample-0.jpg" alt="">
+        <p>あああああ</p>
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <img src="/assets/insta/sample-1.jpg" alt="">
+        <p>いいいいい</p>
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <img src="/assets/insta/sample-3.jpg" alt="">
+        <p>ううううう</p>
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <img src="/assets/insta/sample-4.jpg" alt="">
+        <p>えええええ、おおおお</p>
+      </a>
+    </li>
+    {% endcomment %}
+  </ul>
+</div>
+
+
+<hr />
+
+<h3 id="施設紹介">施設紹介</h3>
+
+<div class="info">
+  <dl>
+    <dt>スラブ壁（80度）</dt>
+    <dd>
+      <figure>
+        <img src="/assets/img/wall/wall1.jpg" alt="" />
+        <figcaption>スラブ、垂壁から135度壁までトレーニングに適した傾斜の壁が充実。</figcaption>
+      </figure>
+    </dd>
+  </dl>
+
+  <dl>
+    <dt>垂壁（90度）</dt>
+    <dd>
+      <figure>
+        <img src="/assets/img/wall/wall2.jpg" alt="" />
+        <figcaption>スラブ、垂壁から135度壁までトレーニングに適した傾斜の壁が充実。</figcaption>
+      </figure>
+    </dd>
+  </dl>
+
+  <dl>
+    <dt>緩傾斜壁（110〜130度）</dt>
+    <dd>
+      <figure>
+        <img src="/assets/img/wall/wall3.jpg" alt="" />
+        <figcaption>きのこ壁は初中級者向け。<br>ルーフ、150度の強傾斜は中～上級者向け。<br>多彩なムーブが楽しめます。</figcaption>
+      </figure>
+    </dd>
+  </dl>
+
+  <dl>
+    <dt>強傾斜壁（150〜180度）</dt>
+    <dd>
+      <figure>
+        <img src="/assets/img/wall/wall4.jpg" alt="" />
+        <figcaption>ルーフ、150度の強傾斜は中～上級者向け。</figcaption>
+      </figure>
+    </dd>
+  </dl>
+
+  <dl>
+    <dt>キッズウォール</dt>
+    <dd>
+      <figure>
+        <img src="/assets/img/wall/wall5.jpg" alt="" />
+        <figcaption>舟形2面。85度（スラブ）と90度（垂壁）。<br>同時に2人登れます。</figcaption>
+      </figure>
+    </dd>
+  </dl>
+</div>
+
+<hr />
+
+<h3 id="営業時間">営業時間</h3>
+
+<div class="info">
+  <table>
+    <tbody>
+      <tr>
+        <td style="text-align: left">平日</td>
+        <td style="text-align: center">14:00 〜 22:00</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">土曜</td>
+        <td style="text-align: center">10:00 〜 20:00</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">日曜・祝日</td>
+        <td style="text-align: center">10:00 〜 20:00</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">定休日</td>
+        <td style="text-align: center">月曜</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 id="料金">料金</h3>
+
+<p><img src="/assets/img/price.jpg" alt="price" /></p>
+
+<hr />
+
+<h3 id="アクセス">アクセス</h3>
+
+<div class="info">
+  <table>
+    <tbody>
+      <tr>
+        <td style="text-align: left">住所</td>
+        <td style="text-align: left">〒352-0011 埼玉県 新座市 野火止5-15−23</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">電話番号</td>
+        <td style="text-align: left">04XX-XX-XXXX</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Eメール</td>
+        <td style="text-align: left"><a href="mailto:info@rockmania.jp">info@rockmania.jp</a></td>
+      </tr>
+      <tr>
+        <td style="text-align: left">電車で</td>
+        <td style="text-align: left">
+          JR武蔵野線 新座駅より徒歩10分<br>
+          東武東上線 朝霞台駅より徒歩20分
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: left">お車で</td>
+        <td style="text-align: left">関越道 所沢ICより車で10分</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">駐車場</td>
+        <td style="text-align: left">10台完備</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p class="center">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7459.696896875249!2d139.55504157194994!3d35.805142513394664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e835d63a5cf5%3A0xcf07a6becb2e668a!2z44CSMzUyLTAwMTEg5Z-8546J55yM5paw5bqn5biC6YeO54Gr5q2i77yV5LiB55uu77yR77yV4oiS77yS77yT!5e0!3m2!1sja!2sjp!4v1666763013251!5m2!1sja!2sjp" width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+
+
+{% comment %}
+<hr />
+
+<h3 id="link">link</h3>
+
+<p>
+  <a href="/about.html">about</a>
+  <a href="/profile.html">profile</a>
+</p>
+
+<hr />
+
+<h3 id="list">list</h3>
+
+<ul>
+  <li>Red</li>
+  <li>Green</li>
+  <li>Blue</li>
+</ul>
+
+<hr />
+
+<h3 id="list-number">list number</h3>
+
+<ol>
+  <li>Red</li>
+  <li>Green</li>
+  <li>Blue</li>
+</ol>
+
+<hr />
+
+<h3 id="code-block">code block</h3>
+
+<p>This is a normal paragraph:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is a code block.
+</code></pre></div></div>
+
+{% endcomment %}
