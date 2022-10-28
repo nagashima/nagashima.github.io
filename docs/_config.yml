@@ -54,3 +54,13 @@ theme: jekyll-theme-minimal
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+exclude:
+   - CNAME
+   - Gemfile
+   - Gemfile.lock
+   - src/
+   - node_modules/
+   - package.json
+   - package-lock.json
+   - webpack.config.js
