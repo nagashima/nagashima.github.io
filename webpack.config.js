@@ -11,7 +11,8 @@ module.exports = {
 	new Dotenv({ systemvars: true }),
     ],
     entry: [
-	path.join(__dirname, "src/js/insta.js"),
+	path.join(__dirname, "src/js/scale.fix.js"),
+	path.join(__dirname, "src/js/insta.js")
     ],
     output: {
 	path: path.resolve(__dirname, "assets/js"),

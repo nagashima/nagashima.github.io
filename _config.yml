@@ -18,7 +18,7 @@ lang: ja
 title: "Rockmania Bouldering Gym"
 email: nagashima@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  埼玉県新座市にあるクライミング、ボルダリングのジムです。
+  埼玉県新座市にあるクライミング、ボルダリングのジム「ロックマニア」です。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "nagashima.rockmania.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nagashima
