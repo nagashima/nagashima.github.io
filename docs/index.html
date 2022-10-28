@@ -44,17 +44,17 @@ description: "This is a test page. html"
 <div class="container social-link">
   <ul class="social-link-items">
     <li>
-      <a href="https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}">
+      <a href="https://instagram.com/{{ site.instagram_username }}">
         <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#instagram' | relative_url }}"></use></svg>Instagram
       </a>
     </li>
     <li>
-      <a href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
+      <a href="https://twitter.com/{{ site.twitter_username }}">
         <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#twitter' | relative_url }}"></use></svg>Twitter
       </a>
     </li>
     <li>
-      <a href="https://facebook.com/{{ site.facebook_username| cgi_escape | escape }}">
+      <a href="https://facebook.com/{{ site.facebook_username }}">
         <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#facebook' | relative_url }}"></use></svg>Facebook
       </a>
     </li>
@@ -212,7 +212,7 @@ description: "This is a test page. html"
       </tr>
       <tr>
         <td style="text-align: left">駐車場</td>
-        <td style="text-align: left">敷地内10台完備</td>
+        <td style="text-align: left">敷地内 10台完備</td>
       </tr>
     </tbody>
   </table>
@@ -221,45 +221,3 @@ description: "This is a test page. html"
 <p class="center">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7459.696896875249!2d139.55504157194994!3d35.805142513394664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e835d63a5cf5%3A0xcf07a6becb2e668a!2z44CSMzUyLTAwMTEg5Z-8546J55yM5paw5bqn5biC6YeO54Gr5q2i77yV5LiB55uu77yR77yV4oiS77yS77yT!5e0!3m2!1sja!2sjp!4v1666763013251!5m2!1sja!2sjp" width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </p>
-
-
-{% comment %}
-<hr />
-
-<h3 id="link">link</h3>
-
-<p>
-  <a href="/about.html">about</a>
-  <a href="/profile.html">profile</a>
-</p>
-
-<hr />
-
-<h3 id="list">list</h3>
-
-<ul>
-  <li>Red</li>
-  <li>Green</li>
-  <li>Blue</li>
-</ul>
-
-<hr />
-
-<h3 id="list-number">list number</h3>
-
-<ol>
-  <li>Red</li>
-  <li>Green</li>
-  <li>Blue</li>
-</ol>
-
-<hr />
-
-<h3 id="code-block">code block</h3>
-
-<p>This is a normal paragraph:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is a code block.
-</code></pre></div></div>
-
-{% endcomment %}
