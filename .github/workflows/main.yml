@@ -33,10 +33,10 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - name: Install NPM Packages
-        run: npm ci
-      - name: Build Javascript
-        run: npm run build
+#      - name: Install NPM Packages
+#        run: npm ci
+#      - name: Build Javascript
+#        run: npm run build
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
