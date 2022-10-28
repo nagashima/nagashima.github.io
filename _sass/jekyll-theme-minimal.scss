@@ -48,7 +48,7 @@ a {
 
 a:hover, a:focus {
   color:#069;
-  font-weight: bold;
+  font-weight:normal;
 }
 
 a small {
@@ -213,6 +213,11 @@ p.center {
 
 p.navi {
   margin:30px;
+
+  a:hover, a:focus {
+    color:#069;
+    font-weight: bold;
+  }
 }
 
 p.indent {
@@ -266,7 +271,6 @@ footer {
     }
 
     a {
-        font-weight: normal;
         margin-left: 6px;
         word-break: break-all;
     }
