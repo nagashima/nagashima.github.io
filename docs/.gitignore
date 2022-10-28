@@ -2,12 +2,14 @@
 .DS_Store
 Thumbs.db
 
+# jekyll
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
 
+# npm
 .env
 node_modules
 assets/js/bundle.js
