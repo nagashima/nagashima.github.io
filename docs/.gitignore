@@ -1,8 +1,13 @@
+*.*~
+.DS_Store
+Thumbs.db
+
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
-node_modules
-assets/js/insta.js
+
 .env
+node_modules
+assets/js/bundle.js
