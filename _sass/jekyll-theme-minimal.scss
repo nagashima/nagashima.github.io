@@ -238,7 +238,7 @@ section dl {
 }
 
 small {
-  font-size:11px;
+  font-size:12px;
 }
 
 hr {
@@ -256,6 +256,10 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+p.footer {
+  margin-top:10px;
+}
+
 .social-links {
     display: flex;
     flex-wrap: wrap;
@@ -268,12 +272,6 @@ footer {
     line-height: 16px;
     margin-top: 6.5px;
     margin-bottom: 10px;
-
-    img {
-        width: 16px;
-        height: 16px;
-    }
-
     a {
         margin-left: 6px;
         word-break: break-all;
@@ -284,8 +282,11 @@ ul.social-link-items {
   display:flex;
   li {
     list-style:none;
-    margin-right:10px;
   }
+}
+
+li.social-link-item {
+  margin-right:20px;
 }
 
 .container {
@@ -377,6 +378,10 @@ ul.insta_list li a p span {
   pre, code {
     word-wrap:normal;
   }
+
+  figure {
+    margin: auto;
+  }
 }
 
 @media print, screen and (max-width: 480px) {
@@ -390,6 +395,10 @@ ul.insta_list li a p span {
 
   .downloads li, .downloads li + li + li {
     width:33%;
+  }
+
+  li.social-link-item {
+    margin-right:5px;
   }
 }
 
