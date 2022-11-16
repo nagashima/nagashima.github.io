@@ -343,6 +343,10 @@ ul.insta_list li a p span {
     margin:20px 0 20px;
   }
 
+  header div.title {
+    margin: 50px auto;
+  }
+
   header p {
     text-align:center;
   }
@@ -371,6 +375,10 @@ ul.insta_list li a p span {
     padding:0;
   }
 
+  header div.title {
+    margin: 30px auto;
+  }
+
   header ul, header p.view {
     position:static;
   }
@@ -387,6 +395,10 @@ ul.insta_list li a p span {
 @media print, screen and (max-width: 480px) {
   body {
     padding:15px;
+  }
+
+   header div.title {
+    margin: 20px auto;
   }
 
   .downloads {

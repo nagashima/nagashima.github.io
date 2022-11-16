@@ -10,14 +10,18 @@
 	    return response.json();
 	})
 	.then((json) => {
+	    let i = 0;
 	    let html = '';
 	    let insta = json.media.data;
-	    for (let i = 0; i < 4; i++) {
-		let url     = insta[i].media_url;
-		let href    = insta[i].permalink;
-		let caption = insta[i].caption;
-		let li = `<li><a href="${href}" target="qoo_insta"><img src="${url}" alt="${caption}"><p>${caption}</p></a></li>`;
-		html += li;
+	    for (let item of json.media.data) {
+		if (i < 6) {
+		    let url     = item.media_url;
+		    let href    = item.permalink;
+		    let caption = item.caption;
+		    let li = `<li><a href="${href}" target="qoo_insta"><img src="${url}" alt="${caption}"><p>${caption}</p></a></li>`;
+		    html += li;
+		    i++;
+		}
 	    }
 	    document.querySelector('.insta-list').innerHTML = html;
 	});
