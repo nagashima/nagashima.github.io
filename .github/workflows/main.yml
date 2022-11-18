@@ -25,8 +25,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      INSTA_APP_ID: ${{ secrets.INSTA_APP_ID }}
-      INSTA_APP_TOKEN: ${{ secrets.INSTA_APP_TOKEN }}
+      FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+      FB_INSTA_ID: ${{ secrets.FB_INSTA_ID }}
+      FB_ACCESS_TOKEN: ${{ secrets.FB_ACCESS_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
