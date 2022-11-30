@@ -16,15 +16,15 @@
 
 lang: ja
 title: "Rockmania Bouldering Gym"
-email: nagashima@gmail.com
+email: gym@rockmania.org
 description: >- # this means to ignore newlines until "baseurl:"
   埼玉県新座市にあるクライミング、ボルダリングのジム「ロックマニア」です。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nagashima.rockmania.org" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: nagashima
-facebook_username: nagashima
-github_username:  nagashima
-instagram_username: twall_edogawabashi
+twitter_username: rockmania_jp
+facebook_username: rockmania.jp
+github_username:  rockmania-jp
+instagram_username: rockmania.jp
 
 # Build settings
 markdown: kramdown

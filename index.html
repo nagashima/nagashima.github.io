@@ -5,8 +5,8 @@ description: "Rockmania Bouldering Gym Top Page"
 
 <h1>
   <!--
-  <img src="/assets/img/slot/frog-02.jpeg" alt="Rockmania Bouldering Gym" />
-  -->
+       <img src="/assets/img/slot/frog-02.jpeg" alt="Rockmania Bouldering Gym" />
+     -->
   <div class="swiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide"><img src="/assets/img/slot/frog-01.jpeg" alt="Rockmania Bouldering Gym" /></div>
@@ -60,13 +60,13 @@ description: "Rockmania Bouldering Gym Top Page"
       </a>
     </li>
     <li class="social-link-item">
-      <a href="https://twitter.com/{{ site.twitter_username }}">
-        <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#twitter' | relative_url }}"></use></svg>Twitter
+      <a href="https://facebook.com/{{ site.facebook_username }}">
+        <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#facebook' | relative_url }}"></use></svg>Facebook
       </a>
     </li>
     <li class="social-link-item">
-      <a href="https://facebook.com/{{ site.facebook_username }}">
-        <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#facebook' | relative_url }}"></use></svg>Facebook
+      <a href="https://twitter.com/{{ site.twitter_username }}">
+        <svg class="svg-icon"><use xlink:href="{{ '/assets/social-icons.svg#twitter' | relative_url }}"></use></svg>Twitter
       </a>
     </li>
   </ul>
@@ -74,7 +74,7 @@ description: "Rockmania Bouldering Gym Top Page"
 
 <div class="info posts-list"></div>
 
-<div>
+<div class="info">
   <ul class="insta-list"></ul>
 </div>
 
@@ -142,20 +142,18 @@ description: "Rockmania Bouldering Gym Top Page"
   <table>
     <tbody>
       <tr>
-        <td style="text-align: left">平日</td>
-        <td style="text-align: center">14:00 〜 22:00</td>
+        <td style="text-align:left; width:22%">平日</td>
+        <td style="text-align:left">15:00 〜 23:00</td>
       </tr>
       <tr>
-        <td style="text-align: left">土曜</td>
-        <td style="text-align: center">10:00 〜 20:00</td>
+        <td style="text-align:left">土日祝</td>
+        <td style="text-align:left">10:00 〜 20:00</td>
       </tr>
       <tr>
-        <td style="text-align: left">日曜・祝日</td>
-        <td style="text-align: center">10:00 〜 20:00</td>
-      </tr>
-      <tr>
-        <td style="text-align: left">定休日</td>
-        <td style="text-align: center">月曜</td>
+        <td style="text-align:left">定休日</td>
+        <td style="text-align:left">
+          月曜日<br>臨時休業あり（SNSにて告知致します）
+        </td>
       </tr>
     </tbody>
   </table>
@@ -163,9 +161,170 @@ description: "Rockmania Bouldering Gym Top Page"
 
 <h3 id="料金">料金</h3>
 
-<p><img src="/assets/img/price.jpg" alt="price" /></p>
+<h4>登録料</h4>
 
-<hr />
+<div class="info">
+  <table>
+    <tbody>
+      <tr>
+        <td style="text-align:left; width:65%">初回登録料</td>
+        <td style="text-align:left">1,100円</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h4>一般</h4>
+
+<div class="info">
+  <table>
+    <tbody>
+      <tr>
+        <td style="text-align:left; width:65%">平日　（終日）</td>
+        <td style="text-align:left">1,650円</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">土日祝（終日）</td>
+        <td style="text-align:left">1,980円</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h4>学生（高校生以上30歳未満）</h4>
+
+<div class="info">
+  <table>
+    <tbody>
+      <tr>
+        <td style="text-align:left; width:65%">平日　（終日）</td>
+        <td style="text-align:left">1,430円</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">平日　（15:00〜18:00）</td>
+        <td style="text-align:left">1,100円</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">土日祝（終日）</td>
+        <td style="text-align:left">1,650円</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h4>中学生以下</h4>
+
+<div class="info">
+  <table>
+    <tbody>
+      <tr>
+        <td style="text-align:left; width:65%">平日　（19時まで）</td>
+        <td style="text-align:left">1,100円</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">土日祝（終日）</td>
+        <td style="text-align:left">1,650円</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">土日祝（2時間/エリア限定）</td>
+        <td style="text-align:left">1,100円</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h4>ファミリー（保護者1名＋中学生以下1名）</h4>
+
+<div class="info">
+  <table>
+    <tbody>
+      <tr>
+        <td style="text-align:left; width:65%">平日　（2時間/エリア限定）</td>
+        <td style="text-align:left">2,200円（2名）</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">土日祝（2時間/エリア限定）</td>
+        <td style="text-align:left">2,640円（2名）</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h4>回数券（有効期限2年間、一般のみ販売）</h4>
+
+<div class="info">
+  <table>
+    <tbody>
+      <tr>
+        <td style="width:65%">平日</td>
+        <td>16,500円</td>
+      </tr>
+      <tr>
+        <td>土日祝</td>
+        <td>19,800円</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h4><span class="notice">オープニング4回券（100枚限定）</span></h4>
+
+<div class="info">
+  <table>
+    <tbody>
+      <tr>
+        <td style="width:65%">
+          お一人様1回のみ購入可<br>（有効期限2023年3月末日）
+        </td>
+        <td>4,950円</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h4>フリーパス券</h4>
+
+<div class="info">
+  <table>
+    <tbody>
+      <tr>
+        <td rowspan="2" style="text-align:left; width:20%">1ヶ月</td>
+        <td style="width:45%">一般</td>
+        <td style="text-align:left">11,880円</td>
+      </tr>
+      <tr>
+        <td>学生</td>
+        <td style="text-align:left">9,900円</td>
+      </tr>
+      <tr>
+        <td rowspan="2">6ヶ月</td>
+        <td style="text-align:left">一般</td>
+        <td style="text-align:left">59,400円</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">学生</td>
+        <td style="text-align:left">49,500円</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h4>レンタル</h4>
+
+<div class="info">
+  <table>
+    <tbody>
+      <tr>
+        <td style="text-align:left; width:65%">シューズ</td>
+        <td style="text-align:left">330円</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">チョーク</td>
+        <td style="text-align:left">100円</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <h3 id="アクセス">アクセス</h3>
 
@@ -173,36 +332,38 @@ description: "Rockmania Bouldering Gym Top Page"
   <table>
     <tbody>
       <tr>
-        <td style="text-align: left">住所</td>
-        <td style="text-align: left">〒352-0011 埼玉県 新座市 野火止5-15−23</td>
+        <td style="text-align:left; width:22%">住所</td>
+        <td style="text-align:left">{% comment %}〒352-0011 {% endcomment %}埼玉県新座市 野火止5-15−23 1F</td>
       </tr>
       <tr>
-        <td style="text-align: left">電話番号</td>
-        <td style="text-align: left">04XX-XX-XXXX</td>
+        <td style="text-align:left">電話番号</td>
+        <td style="text-align:left">042-XXX-XXXX</td>
       </tr>
+      {% comment %}
       <tr>
-        <td style="text-align: left">メール</td>
-        <td style="text-align: left"><a href="mailto:info@rockmania.jp">info@rockmania.jp</a></td>
+        <td style="text-align:left">メール</td>
+        <td style="text-align:left"><a href="mailto:gym@rockmania.org">gym@rockmania.org</a></td>
       </tr>
+      {% endcomment %}
       <tr>
-        <td style="text-align: left">電車</td>
-        <td style="text-align: left">
-          JR武蔵野線 新座駅より徒歩10分<br>
-          東武東上線 朝霞台駅より徒歩20分
+        <td style="text-align:left">電車</td>
+        <td style="text-align:left">
+          JR武蔵野線 新座駅 徒歩13分（1.1km）<br>
+          東武東上線 志木駅 徒歩26分（2.4km）
         </td>
       </tr>
       <tr>
-        <td style="text-align: left">お車</td>
-        <td style="text-align: left">関越道 所沢ICより10分</td>
+        <td style="text-align:left">お車</td>
+        <td style="text-align:left">関越道 所沢IC 8分（5km）</td>
       </tr>
       <tr>
-        <td style="text-align: left">駐車場</td>
-        <td style="text-align: left">敷地内 10台完備</td>
+        <td style="text-align:left">駐車場</td>
+        <td style="text-align:left">敷地内 10台完備</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-<p class="center">
+<p class="map">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7459.696896875249!2d139.55504157194994!3d35.805142513394664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e835d63a5cf5%3A0xcf07a6becb2e668a!2z44CSMzUyLTAwMTEg5Z-8546J55yM5paw5bqn5biC6YeO54Gr5q2i77yV5LiB55uu77yR77yV4oiS77yS77yT!5e0!3m2!1sja!2sjp!4v1666763013251!5m2!1sja!2sjp" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </p>

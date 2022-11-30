@@ -1,9 +1,9 @@
 (function(document) {
 
     const jpDate = function (str) {
-	//return (new Date(str.substr(0, 19) + '+0000')).toLocaleDateString('ja-JP');
-	const date = new Date(str.substr(0, 19) + '+0000');
-	return date.toLocaleDateString('ja-JP') + ' ' + date.toLocaleTimeString('ja-JP').substr(0, 5);
+	return (new Date(str.substr(0, 19) + '+0000')).toLocaleDateString('ja-JP');
+	//const date = new Date(str.substr(0, 19) + '+0000');
+	//return date.toLocaleDateString('ja-JP') + ' ' + date.toLocaleTimeString('ja-JP').substr(0, 5);
     };
 
     const id = process.env.FB_PAGE_ID;
