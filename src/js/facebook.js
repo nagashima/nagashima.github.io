@@ -9,7 +9,7 @@
     const id = process.env.FB_PAGE_ID;
     const token = process.env.FB_ACCESS_TOKEN;
 
-    const url = 'https://graph.facebook.com/v15.0/' + id + '?access_token=' + token + '&fields=posts';
+    const url = 'https://graph.facebook.com/v15.0/' + id + '?access_token=' + token + '&fields=posts{created_time,id,message,permalink_url}';
 
     fetch(url)
 	.then((response) => {
@@ -20,11 +20,13 @@
 	    let html = '';
 	    for (let item of json.posts.data) {
 		if (i < 5) {
-		    let date = jpDate(item.created_time);
-		    let text = item.message;
-		    let li = `<tr><td width="30%" style="text-align:center">${date}</td><td width="70%">${text}</td></tr>`;
-		    html += li;
-		    i++;
+		    if (item.message) {
+			let date = jpDate(item.created_time);
+			let text = item.message;
+			let href = item.permalink_url;
+			html += `<tr><td width="25%" style="text-align:center">${date}</td><td width="70%"><a href="${href}" target="_blank">${text}</a></td></tr>`;
+			i++;
+		    }
 		}
 	    }
 	    if (html) {
