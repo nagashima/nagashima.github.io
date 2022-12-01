@@ -1,9 +1,13 @@
 (function(document) {
 
     const jpDate = function (str) {
-	return (new Date(str.substr(0, 19) + '+0000')).toLocaleDateString('ja-JP');
+	const date = new Date(str.substr(0, 19) + '+0000');
+	return str = date.getFullYear() + '/' + ("0" + (date.getMonth() + 1)).slice(-2) + '/' + ("0" + date.getDate()).slice(-2);
+
 	//const date = new Date(str.substr(0, 19) + '+0000');
 	//return date.toLocaleDateString('ja-JP') + ' ' + date.toLocaleTimeString('ja-JP').substr(0, 5);
+
+	//return (new Date(str.substr(0, 19) + '+0000')).toLocaleDateString('ja-JP');
     };
 
     const id = process.env.FB_PAGE_ID;
