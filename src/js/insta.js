@@ -13,7 +13,7 @@
 	    let i = 0;
 	    let html = '';
 	    for (let item of json.media.data) {
-		if (i < 6) {
+		if (i < 3) {
 		    let url     = item.media_url;
 		    let href    = item.permalink;
 		    let caption = item.caption;
