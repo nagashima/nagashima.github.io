@@ -457,6 +457,13 @@ h1.teaser {
   }
 }
 
+@media print, screen and (max-width: 370px) {
+  body {
+    padding:15px;
+    font: 12px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+}
+
 @media print {
   body {
     padding:0.4in;
