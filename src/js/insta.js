@@ -17,8 +17,7 @@
 		    let url     = item.media_url;
 		    let href    = item.permalink;
 		    let caption = item.caption;
-		    let li = `<li><a href="${href}" target="qoo_insta"><img src="${url}" alt="${caption}"><p>${caption}</p></a></li>`;
-		    html += li;
+		    html += `<li><a href="${href}" target="_blank"><img src="${url}" alt="${caption}"><p>${caption}</p></a></li>`;
 		    i++;
 		}
 	    }

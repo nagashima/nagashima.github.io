@@ -236,6 +236,10 @@ p.center {
   text-align:center;
 }
 
+p.right {
+  text-align:right;
+}
+
 p.map {
   margin-top:30px;
   margin-bottom:10px;
@@ -348,14 +352,14 @@ ul.insta_list li a p span {
 }
 
 .teaser {
-  margin: 40px auto 60px;
+  margin: 40px auto 100px;
   max-width: 600px;
   text-align: center;
 }
 
-h1.teaser {
-  margin: 30px 0;
-  font-size: 4em;
+h1.teaser-message {
+  font-style:italic;
+  font-size: 3em;
   line-height: 1;
   letter-spacing: -1px;
 }
