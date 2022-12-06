@@ -32,6 +32,10 @@ div.space {
   padding-top: 1px;
 }
 
+p.space {
+  padding-top: 1px;
+}
+
 h4, h5, h6 {
   margin-top: 30px;
   margin-bottom: 0px;
@@ -60,7 +64,12 @@ p.profile {
 }
 
 ul.profile {
-  padding-inline-start: 20px;
+  padding-inline-start: 15px;
+}
+
+ul.profile li::marker {
+  //color: #e61019;
+  font-size: 70%;
 }
 
 h1, h2, h3 {
@@ -243,7 +252,7 @@ header div.box {
   margin-bottom:40px;
 }
 
-.message {
+blockquote.message {
   font-style:italic;
 }
 
@@ -366,6 +375,10 @@ ul.insta_list li a p span {
   font-size: 100%;
 }
 
+.price {
+  text-align: right;
+}
+
 .teaser {
   margin: 40px auto 100px;
   max-width: 600px;
@@ -394,6 +407,11 @@ h1.teaser-message {
 
   header {
     #padding-right:320px;
+  }
+
+  blockquote.message {
+    padding-left:0px;
+    font-style:italic;
   }
 
   section {
