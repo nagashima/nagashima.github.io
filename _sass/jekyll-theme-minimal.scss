@@ -345,6 +345,11 @@ li.social-link-item {
   margin-right:20px;
 }
 
+.post-date {
+  width:25%;
+  text-align:center;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -507,10 +512,15 @@ h1.teaser-message {
   }
 }
 
-@media print, screen and (max-width: 370px) {
+
+@media print, screen and (max-width: 390px) {
   body {
-    padding:15px;
     font: 12px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  blockquote {
+    margin:0;
+    padding:0 0 0 10px;
   }
 }
 

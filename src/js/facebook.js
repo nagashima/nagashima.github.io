@@ -26,7 +26,7 @@
 			let date = jpDate(item.created_time);
 			let text = item.message;
 			let href = item.permalink_url;
-			html += `<tr><td width="25%" style="text-align:center">${date}</td><td width="70%"><a href="${href}" target="_blank">${text}</a></td></tr>`;
+			html += `<tr><td class="post-date">${date}</td><td><a href="${href}" target="_blank">${text}</a></td></tr>`;
 			i++;
 		    }
 		}
