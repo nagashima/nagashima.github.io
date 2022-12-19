@@ -47,7 +47,7 @@ h5, h6 {
   margin:0px 0px;
 }
 
-span.notice {
+.notice {
   color: #e61019;
 }
 
@@ -288,8 +288,51 @@ section div.info {
   margin-bottom:20px;
 }
 
+section .pledge {
+  //margin-left:10px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+ul.pledge {
+  padding-inline-start: 15px;
+}
+
+ul.pledge li::marker {
+  //color: #e61019;
+  font-size: 70%;
+}
+
+
+section .note {
+  margin-left:10px;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+section p.download {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left:1em;
+}
+
 section dl {
   margin-bottom:20px;
+}
+
+section .posts-list dl {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+section .posts-list dt {
+  color:#727272;
+  font-weight:400;
+}
+
+section .posts-list dd {
+  margin-top: 0.5em;
+  margin-inline-start:20px;
 }
 
 small {
