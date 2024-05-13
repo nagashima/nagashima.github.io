@@ -42,6 +42,7 @@ exclude:
    - Gemfile.lock
    - src
    - node_modules
+   - vendor
    - package.json
    - package-lock.json
    - webpack.config.js
