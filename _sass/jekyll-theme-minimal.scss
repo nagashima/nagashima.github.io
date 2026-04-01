@@ -72,6 +72,10 @@ ul.profile li::marker {
   font-size: 70%;
 }
 
+header div.title p {
+  margin-left:20px;
+}
+
 h1, h2, h3 {
   line-height:1.1;
 }
@@ -393,6 +397,13 @@ li.social-link-item {
   text-align:center;
 }
 
+.posts-list dd {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -455,6 +466,10 @@ h1.teaser-message {
 
   header {
     #padding-right:320px;
+  }
+
+  header div.title p {
+    margin-left:0px;
   }
 
   blockquote.message {
