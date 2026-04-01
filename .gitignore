@@ -13,3 +13,7 @@ vendor
 .env
 node_modules
 assets/js/bundle.js
+
+# Claude Code
+CLAUDE.md
+.claude/
