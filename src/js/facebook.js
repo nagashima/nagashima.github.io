@@ -14,7 +14,7 @@
     const id = process.env.FB_PAGE_ID;
     const token = process.env.FB_ACCESS_TOKEN;
 
-    const url = 'https://graph.facebook.com/v15.0/' + id + '?access_token=' + token + '&fields=posts{created_time,id,message,permalink_url}';
+    const url = 'https://graph.facebook.com/v25.0/' + id + '?access_token=' + token + '&fields=posts{created_time,id,message,permalink_url}';
 
     fetch(url)
 	.then((response) => {
